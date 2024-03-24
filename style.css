@@ -1,0 +1,153 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+
+background: url("https://source.unsplash.com/1600x900/?landscape");
+background-position: center;
+min-height: 100vh;
+background-size: cover;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.divmain{
+    width: 450px;
+    height: 500px;
+    backdrop-filter:blur(10px);
+    background: transparent;
+    border: 3px solid #ffff;
+    border-radius: 30px;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+h1 {
+    color: aliceblue;
+    height: 20;
+    font-size: 35px;
+    
+   text-align: center;
+
+}
+.inputemail{
+   position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    
+}
+.inputemail input{ 
+    
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline:none ;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255,.2);
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    color: #ffff;
+
+
+}
+
+.inputemail img {
+    position: absolute;
+    margin-right:24px ;
+    top: 20%;
+    margin-top: 2px;
+
+}
+
+.inputemail input::placeholder{
+    color: floralwhite;
+    font-weight: 900;
+}
+
+
+
+
+.inputsenha{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+    
+}
+.inputsenha input{
+
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline:none ;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255,.2);
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    color: #ffff;
+
+}
+
+.inputsenha  input::placeholder {
+    color: floralwhite;
+    font-weight: 900;
+}
+
+.inputsenha img {
+    position: absolute;
+    margin-right:24px ;
+    top: 20%;
+    margin-top: 1px;
+}
+.li1{
+    color: #ffff;
+    
+
+    font-size: 20px;
+    font-weight: 500;
+    margin-right:24px ;
+}
+button{
+    color: #ffff;
+    width: 300px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 600;  
+    margin-top: 20px;
+    
+}
+button:hover{
+    opacity: 0.8;
+    }
+    button:active{
+    opacity: 0.7;
+    }
+.cadastro{
+
+    color: #ffff;
+    
+margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
