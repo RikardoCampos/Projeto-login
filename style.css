@@ -122,6 +122,13 @@ h1 {
     font-weight: 500;
     margin-right:24px ;
 }
+
+.li1:hover{
+    opacity: 0.8;
+    }
+    .li1:active{
+    opacity: 0.7;
+    }
 button{
     color: #ffff;
     width: 300px;
@@ -151,3 +158,9 @@ margin-top: 20px;
     font-weight: 500;
 
 }
+.cadastro:hover{
+    opacity: 0.8;
+    }
+    .cadastro:active{
+    opacity: 0.7;
+    }
